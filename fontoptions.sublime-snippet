@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+"font_options": [ ${1:"no_bold", }${2:"no_italic", }${3:"no_antialias", }${4:"gray_antialias", }${5:"no_round", }${6:"directwrite" }]${7:,}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fontoptions</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.sublime-settings</scope>
+</snippet>
