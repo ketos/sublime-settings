@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-"color_scheme": "Packages/Color Scheme - ${1:Default/Monokai}.tmTheme"${2:,}
+"color_scheme": "Packages/Color Scheme - ${1:Default}/${2:Monokai}.tmTheme"${2:,}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>colorscheme</tabTrigger>
