@@ -9,13 +9,23 @@ This is a Collection of Snippets for Sublime-Settings Files. Needs [AAAPackageDe
 
     git clone git@github.com:ketos/sublime-settings.git
 
-So the Structure look like this:
+So the structure should look like this:
 
     .../Packages/User/sublime-settings/
 
-**With Package Manager:** Not possible yet.
+**With Package Manager:** *Not possible yet.*
 
 ***Important***
-To open sublime-project files with the sublime-settings syntax, open any sublime-project file and in the buttom right
-corner where the current syntax is shown click on [Open all with current extension as ...] and select [AAAPackageDev -> Sublime Settings].
+
+Create or edit the file named "Sublime Settings.sublime-settings" in your User directory so it looks like this:
+
+    {
+        "extensions":
+        [
+            "sublime-settings",
+            "sublime-project",
+            "sublime-workspace"
+        ]
+    }
+
 
