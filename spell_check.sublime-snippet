@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-"tab_size": ${1:4}${2:,}
+"spell_check": ${1:false}${2:,}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>tabsize</tabTrigger>
+    <tabTrigger>spellcheck</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.sublime-settings</scope>
 </snippet>
