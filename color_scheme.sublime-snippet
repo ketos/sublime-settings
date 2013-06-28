@@ -1,5 +1,6 @@
 <snippet>
     <content><![CDATA[
+// Sets the colors used within the text area
 "color_scheme": "Packages/Color Scheme - ${1:Default}/${2:Monokai}.tmTheme"${3:,}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

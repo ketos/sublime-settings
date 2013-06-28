@@ -1,6 +1,8 @@
 <snippet>
     <content><![CDATA[
-"font_options": [ ${1:"no_bold", }${2:"no_italic", }${3:"no_antialias", }${4:"gray_antialias", }${5:"no_round", }${6:"directwrite" }]${7:,}
+// Valid options are "no_bold", "no_italic", "no_antialias", "gray_antialias",
+// "subpixel_antialias", "no_round" (OS X only) and "directwrite" (Windows only)
+"font_options": [ "${1}" ]${2:,}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>fontoptions</tabTrigger>

@@ -1,10 +1,12 @@
 <snippet>
     <content><![CDATA[
-// Fold buttons are the triangles shown in the gutter to fold regions of text
-"fold_buttons": ${1:true}${2:,}
+// Disables horizontal scrolling if enabled.
+// May be set to true, false, or "auto", where it will be disabled for
+// source code, and otherwise enabled.
+"word_wrap": ${1:"auto"}${2:,}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>foldbuttons</tabTrigger>
+    <tabTrigger>wordwrap</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.sublime-settings</scope>
 </snippet>

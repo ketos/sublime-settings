@@ -1,5 +1,6 @@
 <snippet>
     <content><![CDATA[
+// Hides the fold buttons unless the mouse is over the gutter
 "fade_fold_buttons": ${1:true}${2:,}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

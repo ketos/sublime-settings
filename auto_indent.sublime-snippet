@@ -1,5 +1,6 @@
 <snippet>
     <content><![CDATA[
+// Calculates indentation automatically when pressing enter
 "auto_indent": [ ${1:true} ]${2:,}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
